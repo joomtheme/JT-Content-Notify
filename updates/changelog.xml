@@ -1,87 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <changelogs>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.5</version>
-        <fix>
-            <item>Added GPLv2-or-later licence headers to every PHP file for JED compliance.</item>
-            <item>Added an explicit pkg_jtcontentnotify element so the package system language file is detected correctly.</item>
-        </fix>
-        <addition>
-            <item>Added the Joomla extension update server definition.</item>
-            <item>Added package, component and module changelog integration.</item>
-            <item>Added SHA-256 verification data to the update definition.</item>
-        </addition>
-        <change>
-            <item>Standardised licence metadata in all extension manifests.</item>
-        </change>
-    </changelog>
-    <changelog>
-        <element>com_jtcontentnotify</element>
-        <type>component</type>
-        <version>1.0.5</version>
-        <fix>
-            <item>Added GPLv2-or-later licence headers to all administrator and site PHP files.</item>
-        </fix>
-        <addition>
-            <item>Added changelog integration.</item>
-        </addition>
-    </changelog>
-    <changelog>
-        <element>mod_jtcontentnotify</element>
-        <type>module</type>
-        <version>1.0.5</version>
-        <fix>
-            <item>Added GPLv2-or-later licence headers to all module PHP files.</item>
-        </fix>
-        <addition>
-            <item>Added changelog integration.</item>
-        </addition>
-    </changelog>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.4</version>
-        <addition>
-            <item>Moved the View All page to Joomla ListModel and core pagination.</item>
-            <item>Added a configurable number of articles per page.</item>
-        </addition>
-    </changelog>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.3</version>
-        <fix>
-            <item>Improved the unread indicator and title/category alignment on the View All page.</item>
-        </fix>
-    </changelog>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.2</version>
-        <addition>
-            <item>Added component Options and Joomla ACL permissions.</item>
-        </addition>
-        <fix>
-            <item>Corrected the unread indicator shape.</item>
-        </fix>
-    </changelog>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.1</version>
-        <fix>
-            <item>Improved the responsive dropdown layout and language strings.</item>
-            <item>Corrected the package name shown during uninstall.</item>
-        </fix>
-    </changelog>
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.0</version>
-        <addition>
-            <item>Initial release with Joomla core article notifications, unread state and Bootstrap 5 dropdown.</item>
-        </addition>
-    </changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.7</version>
+<fix>
+<item>Removed unsupported element nodes from the package, component and module installation manifests.</item>
+<item>Kept package language discovery based on the PKG_JTCONTENTNOTIFY manifest name and pkg_jtcontentnotify.sys.ini file.</item>
+<item>Refined the administrator Support and Resources card with a cleaner adaptive list-group layout and a single external-link indicator.</item>
+<item>Aligned external-link indicators with support link titles for a more compact layout.</item>
+</fix>
+</changelog>
+<changelog>
+<element>com_jtcontentnotify</element>
+<type>component</type>
+<version>1.0.7</version>
+<fix>
+<item>Removed the unsupported element node from the component installation manifest.</item>
+<item>Simplified the Support and Resources card layout and improved its English and Turkish copy.</item>
+</fix>
+</changelog>
+<changelog>
+<element>mod_jtcontentnotify</element>
+<type>module</type>
+<version>1.0.7</version>
+<fix>
+<item>Removed the unsupported element node from the module installation manifest.</item>
+</fix>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.6</version>
+<addition>
+<item>Added a Support and Resources card to the administrator dashboard.</item>
+<item>Added official JoomTheme website, GitHub repository, and JED profile links.</item>
+</addition>
+<change>
+<item>External support links now open securely in a new tab with accessible helper text.</item>
+</change>
+</changelog>
+<changelog>
+<element>com_jtcontentnotify</element>
+<type>component</type>
+<version>1.0.6</version>
+<addition>
+<item>Added the administrator Support and Resources dashboard card.</item>
+</addition>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.5</version>
+<fix>
+<item>Added GPLv2-or-later licence headers to every PHP file for JED compliance.</item>
+<item>Added package system language files for English and Turkish.</item>
+</fix>
+<addition>
+<item>Added the Joomla extension update server definition.</item>
+<item>Added package, component and module changelog integration.</item>
+<item>Added SHA-256 verification data to the update definition.</item>
+</addition>
+<change>
+<item>Standardised licence metadata in all extension manifests.</item>
+</change>
+</changelog>
+<changelog>
+<element>com_jtcontentnotify</element>
+<type>component</type>
+<version>1.0.5</version>
+<fix>
+<item>Added GPLv2-or-later licence headers to all administrator and site PHP files.</item>
+</fix>
+<addition>
+<item>Added changelog integration.</item>
+</addition>
+</changelog>
+<changelog>
+<element>mod_jtcontentnotify</element>
+<type>module</type>
+<version>1.0.5</version>
+<fix>
+<item>Added GPLv2-or-later licence headers to all module PHP files.</item>
+</fix>
+<addition>
+<item>Added changelog integration.</item>
+</addition>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.4</version>
+<addition>
+<item>Moved the View All page to Joomla ListModel and core pagination.</item>
+<item>Added a configurable number of articles per page.</item>
+</addition>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.3</version>
+<fix>
+<item>Improved the unread indicator and title/category alignment on the View All page.</item>
+</fix>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.2</version>
+<addition>
+<item>Added component Options and Joomla ACL permissions.</item>
+</addition>
+<fix>
+<item>Corrected the unread indicator shape.</item>
+</fix>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.1</version>
+<fix>
+<item>Improved the responsive dropdown layout and language strings.</item>
+<item>Corrected the package name shown during uninstall.</item>
+</fix>
+</changelog>
+<changelog>
+<element>pkg_jtcontentnotify</element>
+<type>package</type>
+<version>1.0.0</version>
+<addition>
+<item>Initial release with Joomla core article notifications, unread state and Bootstrap 5 dropdown.</item>
+</addition>
+</changelog>
 </changelogs>
