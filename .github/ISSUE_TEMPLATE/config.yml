@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: JoomTheme support
+    url: https://joomtheme.com
+    about: Use the official JoomTheme website for general support.
+  - name: Security report
+    url: https://github.com/joomtheme/JT-Content-Notify/security/policy
+    about: Report security-sensitive issues privately.
+  - name: JoomTheme on the JED
+    url: https://extensions.joomla.org/profile/profile/details/147240
+    about: View the extension profile and leave a review.
