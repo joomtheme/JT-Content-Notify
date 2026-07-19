@@ -1,6 +1,5 @@
 # JT Content Notify
-
-[![Latest release](https://img.shields.io/github/v/release/joomtheme/JT-Content-Notify?display_name=tag&sort=semver)](https://github.com/joomtheme/JT-Content-Notify/releases/latest)
+(https://github.com/joomtheme/JT-Content-Notify/releases/latest)
 [![Joomla](https://img.shields.io/badge/Joomla-6.1%2B-5091CD?logo=joomla&logoColor=white)](https://www.joomla.org/)
 [![PHP](https://img.shields.io/badge/PHP-8.3%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
