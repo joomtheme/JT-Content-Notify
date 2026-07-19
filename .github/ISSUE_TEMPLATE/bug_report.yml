@@ -1,0 +1,97 @@
+name: Bug report
+description: Report a reproducible problem in JT Content Notify
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Please provide enough detail to reproduce it.
+
+  - type: input
+    id: extension-version
+    attributes:
+      label: JT Content Notify version
+      placeholder: "1.0.7"
+    validations:
+      required: true
+
+  - type: input
+    id: joomla-version
+    attributes:
+      label: Joomla version
+      placeholder: "6.1.2"
+    validations:
+      required: true
+
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      placeholder: "8.3.x"
+    validations:
+      required: true
+
+  - type: input
+    id: template
+    attributes:
+      label: Template
+      placeholder: "Cassiopeia or custom template name"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: user-state
+    attributes:
+      label: User state
+      options:
+        - Guest
+        - Logged in
+        - Both
+        - Administrator
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Configure the module...
+        2. Publish an article...
+        3. Open...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove private information before posting.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I tested with the latest release.
+          required: true
+        - label: I searched existing issues.
+          required: true
+        - label: This report does not contain credentials or sensitive data.
+          required: true
