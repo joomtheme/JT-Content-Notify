@@ -14,23 +14,13 @@ No separate notification content type is required. Articles remain ordinary Joom
 
 ### Frontend notification dropdown
 
-![JT Content Notify frontend notification dropdown](docs/images/frontend-notification-dropdown.png)
+<img width="562" height="416" alt="frontend-notification-dropdown" src="https://github.com/user-attachments/assets/75ca5376-46ae-4fd6-ae1e-d627b856c9fd" />
+
 
 ### Paginated View All page
 
 ![JT Content Notify paginated notification list](docs/images/frontend-view-all.png)
 
-### Module configuration
-
-![JT Content Notify module configuration](docs/images/module-configuration.png)
-
-### Administrator component
-
-![JT Content Notify administrator component](docs/images/administrator-component.png)
-
-### Support and resources
-
-![JT Content Notify support and resources card](docs/images/support-resources.png)
 
 ## Features
 
