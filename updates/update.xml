@@ -5,6 +5,7 @@
         <description>Joomla core article notifications with a Bootstrap 5 frontend bell and paginated notification centre.</description>
         <element>pkg_jtcontentnotify</element>
         <type>package</type>
+        <client>site</client>
         <version>1.0.5</version>
         <infourl title="JT Content Notify">https://github.com/joomtheme/JT-Content-Notify</infourl>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/JT-Content-Notify/main/updates/changelog.xml</changelogurl>
