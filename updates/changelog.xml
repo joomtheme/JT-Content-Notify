@@ -1,111 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <changelogs>
     <changelog>
         <element>pkg_jtcontentnotify</element>
         <type>package</type>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
 
-        <fix>
-            <item>Removed unsupported element nodes from the package, component, and module installation manifests.</item>
-            <item>Kept package language discovery based on the PKG_JTCONTENTNOTIFY manifest name and pkg_jtcontentnotify.sys.ini file.</item>
-        </fix>
+    <addition>
+        <item>Added a dedicated Joomla menu item type for the frontend notification centre.</item>
+        <item>Added a Mark All as Read action to the paginated View All page.</item>
+        <item>Added read-state updates when notification articles are opened from the View All page.</item>
+        <item>Added a Joomla Privacy plugin for exporting and removing registered-user notification read-state data.</item>
+        <item>Added a system cleanup plugin for removing orphaned read-state records when Joomla users or JT Content Notify module instances are deleted.</item>
+        <item>Added MySQL, MariaDB, and PostgreSQL update schema support.</item>
+        <item>Added a server-side fallback URL for the View All link when JavaScript or AJAX is unavailable.</item>
+    </addition>
 
-        <change>
-            <item>Refined the administrator Support and Resources card with a cleaner adaptive list-group layout.</item>
-            <item>Aligned external-link indicators with support link titles for a more compact layout.</item>
-            <item>Improved the English and Turkish support descriptions.</item>
-        </change>
-    </changelog>
+    <change>
+        <item>Preserved the active Itemid, language, and menu context in notification AJAX requests.</item>
+        <item>Added validation for module publication dates, language, access level, enabled state, and menu assignments.</item>
+        <item>Synchronised guest localStorage read state between the notification dropdown and the View All page.</item>
+        <item>Applied the module category and date visibility settings to the View All page.</item>
+        <item>Moved frontend presentation styles to Joomla Web Asset Manager assets for improved Content Security Policy compatibility.</item>
+        <item>Replaced the hard-coded administrator version number with dynamically loaded extension metadata.</item>
+        <item>Paused automatic notification refresh while the browser tab is hidden.</item>
+        <item>Prevented overlapping notification AJAX requests.</item>
+        <item>Improved Joomla 6.1 and PHP 8.3 compatibility metadata.</item>
+        <item>Replaced public exception details with generic JSON error responses and server-side error logging.</item>
+    </change>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.6</version>
+    <fix>
+        <item>Fixed guest notifications appearing unread again after opening the View All page.</item>
+        <item>Fixed notification articles remaining unread after being opened from the View All page.</item>
+        <item>Fixed incorrect article routing on multilingual and menu-assigned pages.</item>
+        <item>Fixed notification data being accessible through unpublished, expired, language-mismatched, inaccessible, or incorrectly assigned module instances.</item>
+        <item>Fixed View All links becoming unusable when JavaScript or AJAX loading failed.</item>
+        <item>Fixed concurrent read-state writes causing duplicate database key conflicts.</item>
+        <item>Fixed category and date visibility settings being ignored on the View All page.</item>
+        <item>Fixed internal exception and database details being exposed in AJAX error responses.</item>
+    </fix>
+</changelog>
 
-        <addition>
-            <item>Added a Support and Resources card to the administrator dashboard.</item>
-            <item>Added official JoomTheme website, GitHub repository, and JED profile links.</item>
-        </addition>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.7</version>
 
-        <change>
-            <item>External support links now open securely in a new tab with accessible helper text.</item>
-        </change>
-    </changelog>
+    <fix>
+        <item>Removed unsupported element nodes from the package, component, and module installation manifests.</item>
+        <item>Kept package language discovery based on the PKG_JTCONTENTNOTIFY manifest name and pkg_jtcontentnotify.sys.ini file.</item>
+    </fix>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.5</version>
+    <change>
+        <item>Refined the administrator Support and Resources card with a cleaner adaptive list-group layout.</item>
+        <item>Aligned external-link indicators with support link titles for a more compact layout.</item>
+        <item>Improved the English and Turkish support descriptions.</item>
+    </change>
+</changelog>
 
-        <fix>
-            <item>Added GPLv2-or-later licence headers to every PHP file for JED compliance.</item>
-            <item>Added package system language files for English and Turkish.</item>
-        </fix>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.6</version>
 
-        <addition>
-            <item>Added the Joomla extension update server definition.</item>
-            <item>Added package, component, and module changelog integration.</item>
-            <item>Added SHA-256 verification data to the update definition.</item>
-        </addition>
+    <addition>
+        <item>Added a Support and Resources card to the administrator dashboard.</item>
+        <item>Added official JoomTheme website, GitHub repository, and JED profile links.</item>
+    </addition>
 
-        <change>
-            <item>Standardised licence metadata in all extension manifests.</item>
-        </change>
-    </changelog>
+    <change>
+        <item>External support links now open securely in a new tab with accessible helper text.</item>
+    </change>
+</changelog>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.4</version>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.5</version>
 
-        <addition>
-            <item>Moved the View All page to Joomla ListModel and core pagination.</item>
-            <item>Added a configurable number of articles per page.</item>
-        </addition>
-    </changelog>
+    <fix>
+        <item>Added GPLv2-or-later licence headers to every PHP file for JED compliance.</item>
+        <item>Added package system language files for English and Turkish.</item>
+    </fix>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.3</version>
+    <addition>
+        <item>Added the Joomla extension update server definition.</item>
+        <item>Added package, component, and module changelog integration.</item>
+        <item>Added SHA-256 verification data to the update definition.</item>
+    </addition>
 
-        <fix>
-            <item>Improved the unread indicator and title/category alignment on the View All page.</item>
-        </fix>
-    </changelog>
+    <change>
+        <item>Standardised licence metadata in all extension manifests.</item>
+    </change>
+</changelog>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.2</version>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.4</version>
 
-        <addition>
-            <item>Added component Options and Joomla ACL permissions.</item>
-        </addition>
+    <addition>
+        <item>Moved the View All page to Joomla ListModel and core pagination.</item>
+        <item>Added a configurable number of articles per page.</item>
+    </addition>
+</changelog>
 
-        <fix>
-            <item>Corrected the unread indicator shape.</item>
-        </fix>
-    </changelog>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.3</version>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.1</version>
+    <fix>
+        <item>Improved the unread indicator and title/category alignment on the View All page.</item>
+    </fix>
+</changelog>
 
-        <fix>
-            <item>Improved the responsive dropdown layout and language strings.</item>
-            <item>Corrected the package name shown during uninstall.</item>
-        </fix>
-    </changelog>
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.2</version>
 
-    <changelog>
-        <element>pkg_jtcontentnotify</element>
-        <type>package</type>
-        <version>1.0.0</version>
+    <addition>
+        <item>Added component Options and Joomla ACL permissions.</item>
+    </addition>
 
-        <addition>
-            <item>Initial release with Joomla core article notifications, unread state, and a Bootstrap 5 dropdown.</item>
-        </addition>
-    </changelog>
+    <fix>
+        <item>Corrected the unread indicator shape.</item>
+    </fix>
+</changelog>
+
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.1</version>
+
+    <fix>
+        <item>Improved the responsive dropdown layout and language strings.</item>
+        <item>Corrected the package name shown during uninstall.</item>
+    </fix>
+</changelog>
+
+<changelog>
+    <element>pkg_jtcontentnotify</element>
+    <type>package</type>
+    <version>1.0.0</version>
+
+    <addition>
+        <item>Initial release with Joomla core article notifications, unread state, and a Bootstrap 5 dropdown.</item>
+    </addition>
+</changelog>
 </changelogs>
