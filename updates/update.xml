@@ -17,6 +17,6 @@
         <maintainer>JoomTheme</maintainer>
         <maintainerurl>https://joomtheme.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
-        <sha256>7c5ce3c86428626077c2b9916fa9ee64e51e45c75d46d618c49799ee68deb70d</sha256>
+        <sha256>021244e93a5aa24da7a526176b272e6f303f64bd610d1a92d2230625be2de542</sha256>
     </update>
 </updates>
