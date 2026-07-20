@@ -5,11 +5,11 @@
         <description>Joomla core article notifications with a Bootstrap 5 frontend bell and paginated notification centre.</description>
         <element>pkg_jtcontentnotify</element>
         <type>package</type>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
         <infourl title="JT Content Notify">https://github.com/joomtheme/JT-Content-Notify</infourl>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/JT-Content-Notify/main/updates/changelog.xml</changelogurl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Content-Notify/releases/download/v1.0.7/pkg_jtcontentnotify-1.0.7.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Content-Notify/releases/download/v1.0.8/pkg_jtcontentnotify-1.0.8.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainer>JoomTheme</maintainer>
         <maintainerurl>https://joomtheme.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
-        <sha256>475830d0ef199d024e23f87e2d64eed902cf96fb0c75504cb05fc200fd4dd295</sha256>
+        <sha256>7c5ce3c86428626077c2b9916fa9ee64e51e45c75d46d618c49799ee68deb70d</sha256>
     </update>
 </updates>
